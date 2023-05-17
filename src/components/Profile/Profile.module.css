@@ -1,0 +1,41 @@
+.profile {
+  max-width: 200px;
+  min-height: 300px;
+  margin: 10px auto 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.tag {
+  margin: 0 0 10px;
+}
+
+.location {
+  margin-top: 0;
+}
+
+.stats {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.stats span {
+  display: block;
+}

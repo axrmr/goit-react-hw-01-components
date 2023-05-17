@@ -1,0 +1,17 @@
+.item {
+  position: relative;
+}
+
+.item span {
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}

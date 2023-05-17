@@ -1,0 +1,27 @@
+.table {
+  width: 50%;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-align: center;
+}
+
+.table thead {
+  font-size: 1.8rem;
+  color: blue;
+}
+
+.table tr td:nth-child(1) {
+  background-color: rgb(77, 54, 189);
+}
+
+.table tr td:nth-child(2) {
+  background-color: rgb(19, 195, 107);
+}
+.table tr td:nth-child(3) {
+  background-color: rgb(198, 111, 30);
+}
+
+.table td {
+  padding: 10px 15px;
+}

@@ -1,0 +1,30 @@
+.stats {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.stats h2 {
+  margin: 0 0 10px;
+  font-size: 3rem;
+}
+
+.statsList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statsList li {
+  min-width: 80px;
+  padding: 10px;
+  color: #fff;
+}
+
+.statsList li span {
+  display: block;
+  font-size: 2rem;
+}
+.statsList li span:first-child {
+  margin-bottom: 5px;
+}
