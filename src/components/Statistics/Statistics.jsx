@@ -8,7 +8,7 @@ const Statistics = ({ title, stats }) => {
 
   return (
     <section className={css.stats}>
-      <h2 className="title">{title}</h2>
+      {title ? <h2 className="title">{title}</h2> : null}
 
       <ul className={css.statsList}>
         {stats.map(stat => (
